@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    /*margin: 20px 50px 20px 50px; */
+}
+
+.banner{
+    background-image: url('../resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    position: relative;
+    width: 1320px;
+    height: 600px;
+    margin: auto;
+    margin-bottom: 50px;
+    
+}
+.banner h1{
+color: #FFF;
+text-align: center;
+font-size: 72px;
+font-weight: 900;
+line-height: 95px;
+}
+.banner h3{
+color: #FFF;
+text-align: center;
+font-size: 32px;
+font-weight: 400;
+} 
+.section-heading h1{
+color: #F00;
+text-align: center;
+font-size: 88px;
+font-weight: 700;
+}
+.section-heading p{
+color: #F00;
+text-align: center;
+font-size: 24px;
+font-weight: 500;
+}
+.section-heading h2{
+color: #070211;
+font-size: 48px;
+font-weight: 700;
+text-align: center;
+}
+.section-content{
+display: flex;
+justify-content: center;
+}
+
+#welcome-party{
+    padding: 100px 0;
+}
+.welcome-midnight-party{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.midnight-party{
+    width: 400px;
+    max-width: 500px;
+}
+.midnight-party h1{
+color: #FFF;
+font-family: Merriweather;
+font-size: 40px;
+font-weight: 900;
+letter-spacing: 7.04px;
+}
+.midnight-party p{
+color: rgba(255, 255, 255, 0.80);
+font-size: 18px;
+font-family: Inter;
+font-weight: 400;
+padding: 5px;
+}
+.join-button{
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+text-transform: uppercase;
+padding: 10px;
+}
+
+.midnight-party h1 {
+    font-weight: 750px;
+}
+#welcome-party{
+    background-image: url(../resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+    
+.new-park-hotel{
+    padding: 100px 0;
+}
+
+.new-park-hotel h2{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+.new-park-hotel{
+    text-align: center;   
+}
+.text-primary{
+    color: #F00;
+}
+
+.new-park-hotel{
+    background-color: rgba(229, 84, 115, 0.10);   
+    width: 1320px;
+    margin: auto;
+}
+
+.container-offer{
+    display: flex;
+    align-items: center;  
+    padding: 50px 0; 
+}
+.container-offer{
+    background-color: #FFF;
+    width: 1320px;
+    margin: auto;
+}
+
+.section-heading h2{
+    color: #F00;
+    font-size: 15px;
+}
+.section-heading h1{
+    color: #070211;
+    font-size: 25px;
+}
+.section-heading p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 15px;
+}
+
+.new-year{
+    color: #F00;
+    font-size: 20px;
+}
+.new-year p{
+    font-size: 15px;
+    color: rgba(7, 2, 17, 0.60);
+}
+.holiday{
+    text-align: center;
+}
+
+.section-class h2{
+color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.section-class h1{
+color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+}
+.text-primary{
+    color: #F00;
+}
+.section-class p{
+ color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px; /* 160% */
+}
+
+
+
+
+
+.awesome-portfolio{
+    background-color: #FFF;
+    width: 1320px;
+    margin: auto;
+    padding: 50px 0; 
+}
+.awesome-portfolio h4{
+    color: #F00;   
+}
+.awesome-portfolio h1{
+    color: #070211;
+    padding: 5px 0; 
+}
+.awesome-portfolio p{
+    color: rgba(7, 2, 17, 0.60);   
+}
+.six-images{
+    border-radius: 16px;
+    padding: 50px 0;  
+}
+.newsletter-main{
+    background: rgba(255, 0, 0, 0.05);
+    width: 1320px;
+    margin: auto;
+    padding: 80px 0;
+    text-align: center;
+} 
+.section-subscribe h2{
+    color: #070211; 
+    font-size: 48px;
+}
+.section-subscribe p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    padding: 10px;
+}
+#newsletter form{
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+}
+#newsletter form input{
+    flex-grow: 1;
+    border: none;
+    border-radius: 50px;
+    background: #FFF;
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+}
+/* footer-section-style */
+footer{
+    /* width: 1400px; */
+    height: 600px;
+    /*margin auto; */
+    background: #070211;   
+    margin-bottom: 0; 
+}
+.footer-content{
+    display: flex;
+    color: #FFF;
+    justify-content: space-between;
+    width: 1200px;
+    height: 200px;
+    margin: auto;
+    padding: 80px 120px 0 80px;
+    font-size: 24px;
+
+}
+hr{
+    width: 1320px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+
+
+    margin: auto;
+}
+.footer-anc{
+    text-align: center;
+    border-color: none;
+}
+.footer-section{
+    display: flex;
+    color: #FFF;
+    justify-content: space-between;
+    width: 1200px;
+    height: 200px;
+    margin: auto;
+    padding: 80px 120px 0 80px;
+    font-size: 24px;
+
+}
+
+
